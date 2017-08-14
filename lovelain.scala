@@ -26,7 +26,7 @@ object lovelain {
       if(fileContents(i) == 'â') {
         if(fileContents(i+1) == '€') {
           if(fileContents(i+2) == '™') {
-            newString += ''';
+            newString += '\'';
           }
         }
         i+=3;
